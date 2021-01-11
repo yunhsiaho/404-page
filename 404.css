@@ -1,0 +1,30 @@
+html{
+    font-family: fantasy;
+    background-image: url(space.jpeg);
+    color: honeydew;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.button{
+    color: honeydew;
+    text-align: center;
+    font-size: 20px;
+}
+.img:hover{
+    margin-left:150px;
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+  @keyframes move{
+    0% {left:0px;}
+    50%{left:100px;}
+    100%{left:0px;}
+
+  }
+  
