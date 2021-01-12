@@ -42,6 +42,7 @@ div.catinvader{
 .catinvader:hover{
    
     animation-name: move;
+    animation-iteration-count: infinite;
     animation-duration: 5s;
 }
 
