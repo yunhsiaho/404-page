@@ -46,13 +46,12 @@ div.catinvader{
 }
 
 .catinvader:hover{
-   
     animation-name: move;
     animation-iteration-count: infinite;
     animation-duration: 5s;
 }
 
-  @keyframes move{
+@keyframes move{
 
     0%{transform:translateX(0%); }
 
@@ -72,5 +71,5 @@ div.catinvader{
 
     100%{transform:translateX(0%);}
     
-  }
-  
+}
+
